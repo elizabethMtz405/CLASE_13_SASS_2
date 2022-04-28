@@ -1,0 +1,18 @@
+.tarjeta{
+    background-color: $color_Primario;
+    color: $colorLetra;
+    .fa-desktop{
+        font-size: 60px;
+    }
+    button{
+        border: 0;
+        border: 5px solid $colorBlanco;
+        color: $colorBlanco;
+        padding: 10px 30px;
+        border-radius: 8px;
+        background-color: rgba(18, 17, 17, 0) ;
+        &:hover{
+            background-color: $color_Secundario;
+        }
+    }
+}

@@ -1,0 +1,13 @@
+nav{
+    background-color: $color_Primario;
+    ul{
+        list-style: none;
+        li{
+            padding: 10px;
+            a{
+                text-decoration: none;
+                color: $colorBlanco;
+            }
+        }
+    }
+}
